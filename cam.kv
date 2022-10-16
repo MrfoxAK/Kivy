@@ -1,0 +1,37 @@
+#: import XCamera kivy.garden.xcamera.XCamera
+
+
+FloatLayout:
+     orientation: "vertical"
+     XCamera:
+          id: xcamera
+          on_picture_taken: app.picture_taken()
+
+     
+     Button:
+          text: "change camera"
+          size_hint: .2, .1
+          pos_hint: {"center_x": .5}
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
